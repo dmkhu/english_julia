@@ -27,7 +27,7 @@ a:hover {
 .menu {
     padding-top: 10px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: end;
     margin-right: 15%;
 }
@@ -93,7 +93,7 @@ a:hover {
 
 .lesson {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .text {
@@ -119,13 +119,13 @@ a:hover {
 
 .containers-first {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     margin-left: 45px;
 }
 
 .containers-second {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     margin-left: 45px;
     margin-top: 33px;
 }
@@ -159,7 +159,7 @@ a:hover {
 .red-line {
     margin-top: 72px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #CF224B;
@@ -192,7 +192,7 @@ a:hover {
 
 .boxes {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     padding-left: 7%;
     padding-top: 40px;
 }
