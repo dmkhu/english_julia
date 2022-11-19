@@ -44,7 +44,7 @@ a:hover {
 
 .learn-smart {
     margin-left: 15%;
-    margin-top: 7%;
+    margin-top: 10%;
 }
 
 .learn-smart h1, h2 {
@@ -203,7 +203,7 @@ a:hover {
     border: 3px solid #000;
     border-radius: 10px;
     text-align: center;
-    margin-right: 150px;
+    margin-right: 10%;
 }
 
 .box p {
