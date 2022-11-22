@@ -167,7 +167,7 @@
 
             <div class="box-questions">
 
-                <div class="question" id="submit1">
+                <div class="question">
                     <h5>Когда можно начать групповые занятия?</h5>
                         <img 
                         src="assest/images/ответ.svg"
@@ -186,7 +186,7 @@
 
             <div class="box-questions">
 
-                <div class="question" id="submit2">
+                <div class="question">
                     <h5>Когда можно начать парные занятия?</h5>
                         <img 
                         src="assest/images/ответ.svg"
@@ -205,7 +205,7 @@
 
             <div class="box-questions">
 
-                <div class="question" id="submit3">
+                <div class="question">
                     <h5>Как часто проходят занятия?</h5>
                         <img 
                         src="assest/images/ответ.svg"
@@ -224,7 +224,7 @@
 
             <div class="box-questions">
 
-                <div class="question" id="submit4">
+                <div class="question">
                     <h5>Если придется пропустить урок?</h5>
                         <img 
                         src="assest/images/ответ.svg"
@@ -243,7 +243,7 @@
 
             <div class="box-questions">
 
-                <div class="question" id="submit5">
+                <div class="question">
                     <h5>Если я вынужден сделать паузу в обучении, смогу я потом вернуться?</h5>
                         <img 
                         src="assest/images/ответ.svg"
@@ -262,7 +262,7 @@
 
             <div class="box-questions">
 
-                <div class="question" id="submit6">
+                <div class="question">
                     <h5>Нужно покупать учебник?</h5>
                         <img 
                         src="assest/images/ответ.svg"
@@ -281,7 +281,7 @@
 
             <div class="box-questions">
 
-                <div class="question" id="submit7">
+                <div class="question">
                     <h5>Будет ли домашнее задание?</h5>
                         <img 
                         src="assest/images/ответ.svg"
@@ -308,13 +308,14 @@
         </footer>
 
         <script>
-            document.querySelector('#submit1').onclick = function(){
-                alert('Упс, кнопка пока не работает')
-            }
-
-            document.querySelector('#submit2').onclick = function(){
-                alert('скоро буду')
-            }
+            document.querySelectorAll('.box-questions').forEach(function(section) {
+    section.addEventListener('click', function(e) {
+        document.querySelectorAll('.box-questions').forEach(function(section) {
+            section.classList.remove('opened')
+        })
+        e.target.closest('.box-questions').classList.add('opened')
+    })
+})
         </script>
 
 </body>
