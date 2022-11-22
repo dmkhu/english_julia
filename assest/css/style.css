@@ -15,9 +15,6 @@ ul {
 a {
     text-decoration: none;
 }
-a:hover {
-    color: orange;
-}
 
 .header {
     background: url('../images/backgraund.jpg') center no-repeat;
@@ -310,3 +307,67 @@ a:hover {
 }
 
 
+@media screen and (max-width: 650px) {
+    .menu {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0;
+        text-align: center;
+    }
+    .menu li a {
+        display: inline-block;
+        font-size: 28px;
+        border: 1px solid #CF224B;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 5px;
+        border-radius: 10px;
+    }
+
+    .learn-smart {
+        margin: auto;
+    }
+    .learn-smart h3 {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .lesson {
+        flex-direction: column;
+    }
+    .text {
+        width: auto;
+        margin-top: 50px;
+        margin-left: 0;
+        padding-left: 10px;
+    }
+    .containers-first {
+        flex-direction: column;
+        margin: 0;
+    }
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .red-line a{
+        width: 50%;
+    }
+    .free{
+        margin: 0;
+        transform: rotate(0deg);
+    }
+    .crutch{
+        display: none;
+    }
+    .boxes {
+        flex-direction: column;
+        margin: 0;
+        padding-left: 0;
+    }
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+  } 
