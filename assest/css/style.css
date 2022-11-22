@@ -177,6 +177,18 @@ a:hover {
     color: #2F3D5C;
 }
 
+.free {
+    background-color: #2F3D5C;
+    color: #fff;
+    display: block;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    transform: rotate(-10deg);
+    margin-left: 150px;
+}
+
 .crutch {
     width: 20%;
 }
