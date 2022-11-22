@@ -5,6 +5,8 @@
     font-size: 24px;
 }
 
+
+
 ul {
     list-style-type: none;
     text-decoration: none;
@@ -25,7 +27,7 @@ a:hover {
 }
 
 .menu {
-    padding-top: 10px;
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -55,23 +57,23 @@ a:hover {
 .learn-smart h1 {
     color: #2F3D5C;
     font-size: 64px;
-    text-shadow: rgb(172, 172, 172) 0 30px 30px;
+    /* text-shadow: rgb(172, 172, 172) 0 30px 30px; */
 }
 
 .learn-smart h2 {
     color: #CF224B;
     font-size: 64px;
-    text-shadow: rgb(172, 172, 172) 0 30px 30px;
+    /* text-shadow: rgb(172, 172, 172) 0 30px 30px; */
 }
 
 .learn-smart h3 {
     margin-top: 40px;
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 100px;
 }
 
 .btn {
-    margin-top: 100px;
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -208,7 +210,7 @@ a:hover {
 
 .box p {
     margin-top: 60px;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -221,16 +223,61 @@ a:hover {
 
 .box h4 {
     color: #CF224B;
-    margin-bottom: 37px;
+    margin-bottom: 137px;
 }
 
 .questions {
     background-color: #F4F4F6;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .questions h3 {
     font-size: 64px;
     font-weight: bold;
     margin-left: 5%;
+    margin-bottom: 40px;
 }
+
+.box-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    width: 70%;
+    cursor: pointer;
+}
+
+.question img {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    border: none;
+    margin-left: auto;
+    transition: transform .8s ease-in-out;
+}
+.question img:hover {
+    transform: rotate(360deg);
+}
+
+.answer {
+    width: 70%;
+    background-color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    display: none;
+}
+
+.footer {
+    background-color: #CF224B;
+    height: 150px;
+}
+
