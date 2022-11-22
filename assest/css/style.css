@@ -272,12 +272,29 @@ a:hover {
     width: 70%;
     background-color: #fff;
     font-size: 16px;
-    padding: 10px;
-    display: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 0;
+    overflow: hidden;
+}
+
+.opened .answer {
+    height: auto;
+}
+
+.opened .question img {
+    transform: rotate(45deg);
 }
 
 .footer {
     background-color: #CF224B;
     height: 150px;
 }
+
+.answer * {
+    padding: 20px;
+    margin: 0;
+    display: block;
+}
+
 
