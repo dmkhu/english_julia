@@ -308,25 +308,30 @@ a {
 
 
 @media (max-width: 650px) {
+    
     .menu {
         padding-top: 30px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-right: 0;
         text-align: center;
+        margin: 0;
     }
     .menu li a {
         display: inline-block;
         font-size: 28px;
         border: 1px solid #CF224B;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0;
+        padding-right: 0;
         margin-bottom: 5px;
         border-radius: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .learn-smart {
+        padding-left: 20px;
         margin: auto;
     }
     .learn-smart h3 {
